@@ -1,0 +1,384 @@
+/* 
+  Author: Marc Gaikwad 
+  Theme: muscles car website
+  Version: 1.0
+*/
+/* CSS for all */
+* {
+  margin: 0 0;
+  padding: 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1%;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+.img-curve {
+  border-radius: 15px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-black {
+  color: black;
+}
+
+.clearfix {
+  clear: both;
+  float: none;
+}
+
+span {
+  color: #fff;
+}
+
+span:hover {
+  color: #eedc82;
+}
+
+a {
+  color: #ff6b81;
+  text-decoration: none;
+}
+
+.btn {
+  padding: 1%;
+  border: none;
+  font-size: 1rem;
+}
+
+.btn-primary {
+  background-color: #ff6b81;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  color: white;
+  background-color: #ff4757;
+}
+
+.h2 {
+  color: #2f3542;
+  font-size: 1.3rem;
+  margin-bottom: 2%;
+}
+
+.h3 {
+  font-size: 1.5rem;
+}
+
+.float-container {
+  position: relative;
+}
+
+.float-text {
+  position: absolute;
+  bottom: 50px;
+  left: 40%;
+}
+
+.fieldset {
+  border: 1px solid white;
+  margin: 5%;
+  padding: 3%;
+  border-radius: 5px;
+}
+
+.success {
+  color: #2ed573;
+}
+
+.error {
+  color: #ff4757;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: rgb(68, 102, 150);
+}
+
+.logo {
+  width: 15%;
+  float: left;
+}
+
+a:hover {
+  color: #ff4757;
+}
+
+.menu {
+  line-height: 60px;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu ul li {
+  display: inline;
+  padding: 1%;
+  font-weight: bold;
+}
+
+/* CAR-SEARCH */
+.car-search {
+  background-color: #e9dac1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 7% 0;
+}
+
+.car-search input[type="search"] {
+  width: 50%;
+  padding: 1%;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+/* CAR-CATEGORIES */
+.categories {
+  padding: 4% 0;
+}
+
+.box-3 {
+  width: 28%;
+  float: left;
+  margin: 2%;
+}
+
+/* CAR-MENU */
+.car-menu {
+  background-color: #ececec;
+  padding: 4% 0;
+}
+
+.car-menu-box {
+  width: 43%;
+  margin: 1%;
+  float: left;
+  padding: 2%;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.car-menu-img {
+  width: 20%;
+  float: left;
+}
+
+.car-menu-desc {
+  width: 70%;
+  float: left;
+  margin-left: 8%;
+}
+
+.car-price {
+  font-size: 1.2rem;
+  margin: 2% 0;
+}
+
+.car-detail {
+  font-size: 1rem;
+  color: #747d8c;
+}
+
+/* BRANDS */
+.brands ul {
+  list-style: none;
+}
+
+.brands ul li {
+  display: inline;
+  padding: 4%;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #54bab9;
+  padding-bottom: 10px;
+}
+
+.top-footer ul {
+  list-style: none;
+  display: inline-block;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.left li {
+  padding: 24px;
+  width: 200px;
+  text-align: center;
+  font-size: 0.8 rem;
+}
+
+.left li a {
+  color: #eedc82;
+}
+.left li a:hover {
+  color: red;
+}
+
+.right li {
+  padding: 24px;
+  width: 200px;
+  text-align: center;
+  font-size: 0.8 rem;
+}
+
+.right li a {
+  color: #eedc82;
+}
+
+.right li a:hover {
+  color: red;
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 200px;
+  font-size: 1.5rem;
+}
+
+.car-container {
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.car-detail-container {
+  display: flex;
+  padding: 1%;
+  /* border: 1px solid red; */
+}
+.heading {
+  padding: 0 0 0 0px;
+  /* margin-left: 50px; */
+  padding-bottom: 10px;
+  font-size: 1rem;
+}
+
+.car-detail-heading {
+  display: flex;
+  color: red;
+  justify-content: space-between;
+  background-color: black;
+  padding: 0 7%;
+  font-size: 1.5rem;
+  border-radius: 5px 5px 0 0;
+}
+
+.car-detail-description {
+  padding: 10px 250px 30px 10px;
+  /* justify-content: space-between; */
+  text-align: left;
+}
+
+.car-detail-color {
+  padding: 0px 450px 30px 10px;
+  /* justify-content: space-between; */
+  text-align: left;
+}
+
+.car-detail-specs {
+  padding: 0px 450px 10px 10px;
+  text-align: left;
+}
+
+.car-detail-img img {
+  height: 400px;
+  width: 300px;
+  padding-right: 70px;
+}
+
+.car-detail-order {
+  font-size: 1.5rem;
+  padding-left: 20px;
+}
+/* RESPONSIVE */
+@media only screen and (max-width: 768px) {
+  .logo {
+    width: 80%;
+    float: none;
+    margin: 1% auto;
+  }
+
+  .menu ul {
+    text-align: center;
+  }
+
+  .car-search input[type="search"] {
+    width: 90%;
+    margin-bottom: 5%;
+    padding: 2%;
+  }
+
+  .btn {
+    width: 81%;
+    padding: 2%;
+  }
+
+  .box-3 {
+    width: 90%;
+    margin: 4% auto;
+  }
+
+  .car-search {
+    padding: 10% 0;
+  }
+
+  .catagories {
+    padding: 20% 0;
+  }
+
+  h2 {
+    margin-bottom: 10%;
+  }
+
+  .car-menu {
+    padding: 20% 0;
+  }
+
+  .car-menu-box {
+    width: 90%;
+    padding: 5%;
+    margin-bottom: 5%;
+  }
+
+  .brands {
+    padding: -90px 0;
+    width: 100%;
+  }
+  .footer {
+    padding: 1% 0;
+  }
+  /* .order {
+    width: 100%;
+  } */
+}

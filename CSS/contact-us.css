@@ -1,0 +1,168 @@
+/* 
+  Author: Marc Gaikwad  
+  Theme: muscles car website
+  Version: 1.0
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap");
+
+/* All Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* navbar section*/
+nav {
+  width: 100%;
+  height: 75px;
+  background-color: #cc4b2c;
+  line-height: 75px;
+  padding: 0px 100px;
+  position: fixed;
+  z-index: 1;
+}
+nav .logo {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+nav .logo p {
+  float: left;
+  color: #fff;
+  text-transform: uppercase;
+}
+nav ul {
+  float: right;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 0px 32px;
+}
+
+nav ul li a:hover {
+  border-bottom: 2px solid black;
+  color: #c0d96f;
+}
+/* Contact section */
+.contact {
+  padding-top: 115px;
+  padding-bottom: 30px;
+}
+.contact_data {
+  padding: 20px 20px;
+  width: 700px;
+  text-align: center;
+  border-radius: 0px 10px 10px 0px;
+}
+.contact_title {
+  padding-left: 130px;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+/* form data section */
+.form {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.form_data {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  display: inline-flex;
+  padding-left: 100px;
+}
+.form_data p i {
+  font-size: 30px;
+}
+.form_data p span {
+  color: red;
+  padding-right: 80px;
+  font-size: 30px;
+}
+/* form section */
+.Form {
+  padding-top: 2rem;
+  padding-left: 350px;
+}
+.Form_inputs {
+  width: 550px;
+  height: 460px;
+  padding: 2rem;
+  background-color: #eae7e6;
+  border-radius: 0.5rem;
+}
+.Form_inputs h3 {
+  text-align: center;
+  padding-bottom: 15px;
+}
+.Form_input {
+  padding: 1rem;
+  display: flex;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.Form ::placeholder {
+  color: #662616;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.Form_button {
+  outline: none;
+  border: none;
+  font-family: 700;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #cc4b2c;
+  margin-left: 37%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* FOOTER section */
+.footer {
+  background-color: #290f09;
+  color: #fffafa;
+  text-align: center;
+  margin-top: 40px;
+}
+.footer_title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.footer_description {
+  margin-bottom: 3rem;
+}
+.footer_social {
+  margin-bottom: 3rem;
+}
+.footer_link {
+  display: inline-flex;
+  background-color: #cc4b2c;
+  color: #fffafa;
+  font-size: 1, 1rem;
+  border-radius: 50%;
+  padding: 0.4rem;
+  margin: 0 0.5rem;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.footer_link:hover {
+  background-color: #fffafa;
+  color: #cc4b2c;
+}
+.footer_copy {
+  font-size: 0.75rem;
+  color: #54423d;
+}

@@ -1,0 +1,212 @@
+/* 
+  Author: Marc Gaikwad 
+  Theme: muscles car website
+  Version: 1.0
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap");
+
+/* All Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* navbar section*/
+nav {
+  width: 100%;
+  height: 75px;
+  background-color: #cc4b2c;
+  line-height: 75px;
+  padding: 0px 100px;
+  position: fixed;
+  z-index: 1;
+}
+nav .logo {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+nav .logo p {
+  float: left;
+  color: #fff;
+  text-transform: uppercase;
+}
+nav ul {
+  float: right;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 0px 32px;
+}
+
+nav ul li a:hover {
+  border-bottom: 2px solid black;
+  color: #c0d96f;
+}
+/* ABOUT section */
+.about {
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+.about_data {
+  padding: 40px 40px;
+  width: 700px;
+  text-align: center;
+  border-radius: 0px 10px 10px 0px;
+}
+.about_title {
+  padding-left: 130px;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+/* Breif information section */
+.brief {
+  padding-left: 15rem;
+  padding-right: 10rem;
+}
+.brief_data {
+  font-size: 20px;
+  font-weight: 300;
+  border-bottom: 2px solid black;
+}
+
+/* Engine section */
+.engine {
+  padding: 5rem;
+}
+.engine_title {
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.engine_data {
+  display: flex;
+  padding: 30px;
+  padding-bottom: 90px;
+  border-bottom: 2px solid black;
+}
+.engine_text {
+  font-size: 17px;
+  font-weight: 300;
+}
+.engine_img {
+  border-radius: 20px;
+  padding-left: 10px;
+}
+
+/* Horsepower section */
+.horsepower {
+  padding: 5rem;
+}
+.horsepower_title {
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.horsepower_data {
+  display: flex;
+  padding: 70px;
+  padding-bottom: 90px;
+  border-bottom: 2px solid black;
+}
+.horsepower_text {
+  font-size: 17px;
+  font-weight: 300;
+}
+.horsepower_img {
+  border-radius: 20px;
+  padding-right: 20px;
+}
+
+/* Interior section */
+.interior {
+  padding: 5rem;
+}
+.interior_title {
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.interior_data {
+  display: flex;
+  padding: 30px;
+  padding-bottom: 50px;
+  border-bottom: 2px solid black;
+}
+.interior_text {
+  font-size: 17px;
+  font-weight: 300;
+}
+.interior_img {
+  border-radius: 20px;
+  padding-left: 10px;
+}
+
+/* BRANDS Page */
+.brands_title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 100px;
+  margin-bottom: 90px;
+}
+.brand_data {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+
+/* FOOTER section */
+.footer {
+  background-color: #290f09;
+  color: #fffafa;
+  text-align: center;
+  /* margin-top: 40px; */
+}
+.footer_title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  /* margin-top: 1rem; */
+}
+.footer_description {
+  margin-bottom: 3rem;
+}
+.footer_social {
+  margin-bottom: 3rem;
+}
+.footer_link {
+  display: inline-flex;
+  background-color: #cc4b2c;
+  color: #fffafa;
+  font-size: 1, 1rem;
+  border-radius: 50%;
+  padding: 0.4rem;
+  margin: 0 0.5rem;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.footer_link:hover {
+  background-color: #fffafa;
+  color: #cc4b2c;
+}
+.footer_copy {
+  font-size: 0.75rem;
+  color: #54423d;
+}
