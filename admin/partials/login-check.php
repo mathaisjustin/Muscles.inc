@@ -3,7 +3,7 @@
     if(isset($_SESSION['last_active_time']))
     {
         //to check whwter thr user is active or not
-        if(time() - $_SESSION['last_active_time']>300)
+        if(time() - $_SESSION['last_active_time']>5)
         {
             header('location:'.SITEURL.'admin/logout.php');
             die();
